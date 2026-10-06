@@ -88,3 +88,7 @@ cite{display:block;margin-top:1rem;font-style:normal;font-size:.75rem;letter-spa
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease)}.reveal.in{opacity:1;transform:none}
 .split .w{display:inline-block;overflow:hidden;vertical-align:top}.split .w>span{display:inline-block;transform:translateY(105%);transition:transform 1s var(--ease)}.split.in .w>span{transform:none}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}.split .w>span{transform:none}}
+
+/* tratamento único nas fotos para identidade consistente */
+.ph:not(.g){filter:saturate(.75) contrast(1.06) brightness(.95)}.g::before{filter:saturate(.75) contrast(1.06)}
+.ph{transition:background-image .6s}
