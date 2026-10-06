@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barbearia Premium | Estilo não é detalhe. É identidade.</title>
+<meta name="description" content="Barbearia masculina de alto padrão: corte, barba e experiência com precisão e estilo. Agende seu horário pelo WhatsApp.">
+<meta property="og:title" content="Barbearia Premium">
+<meta property="og:description" content="Experiência, precisão e estilo em cada corte.">
+<meta name="theme-color" content="#0c0c0d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo</a>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#inicio" data-edit="nome">NOME DA <b>BARBEARIA</b></a>
+  <nav id="menu" aria-label="Principal">
+    <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a>
+    <a href="#profissionais">Profissionais</a><a href="#galeria">Galeria</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a>
+    <a class="btn btn-sm menu-cta" href="#agendar">Agendar</a>
+  </nav>
+  <a class="btn btn-sm nav-cta" href="#agendar">Agendar</a>
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+</header>
+
+<main id="main">
+<section class="hero" id="inicio">
+  <div class="bg ph" data-img="images/hero.jpg" data-speed="0.15"></div>
+  <div class="hero-in">
+    <p class="eyebrow reveal">Barbearia · Alto padrão</p>
+    <h1 class="split">Estilo não é detalhe.<br><em>É identidade.</em></h1>
+    <p class="lead reveal">Experiência, precisão e estilo em cada corte.</p>
+    <div class="actions reveal">
+      <a class="btn" href="#agendar">Agendar horário</a>
+      <a class="btn btn-ghost" href="#servicos">Conhecer serviços</a>
+    </div>
+  </div>
+  <span class="scroll" aria-hidden="true"></span>
+</section>
+
+<section class="sec about" id="sobre">
+  <div class="wrap two">
+    <figure class="ph tall reveal" data-img="images/sobre.jpg" role="img" aria-label="Ambiente da barbearia"></figure>
+    <div class="reveal">
+      <p class="eyebrow">Sobre</p>
+      <h2>Onde estilo e experiência se encontram.</h2>
+      <p data-edit="sobre1">Mais do que um corte, entregamos um momento de cuidado. Nossa barbearia nasceu do desejo de unir técnica apurada, atendimento atencioso e um ambiente pensado em cada detalhe.</p>
+      <p data-edit="sobre2">Aqui, cada cliente é único: ouvimos, orientamos e executamos com precisão para que você saia com a sua melhor versão.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark" id="servicos">
+  <div class="wrap">
+    <p class="eyebrow reveal">Serviços</p>
+    <h2 class="reveal">Cada serviço, executado com maestria.</h2>
+    <!-- EDITE AQUI: adicione, remova ou altere serviços. Preço é opcional (data-preco). -->
+    <ul class="services" id="services">
+      <li class="reveal"><h3>Corte masculino</h3><p>Corte personalizado ao seu estilo e formato de rosto.</p><span class="price" data-preco="">Consulte</span></li>
+      <li class="reveal"><h3>Barba</h3><p>Modelagem e cuidado com toalha quente e acabamento.</p><span class="price">Consulte</span></li>
+      <li class="reveal"><h3>Corte + Barba</h3><p>A experiência completa, do início ao fim.</p><span class="price">Consulte</span></li>
+      <li class="reveal"><h3>Acabamento</h3><p>Contornos e detalhes na navalha.</p><span class="price">Consulte</span></li>
+      <li class="reveal"><h3>Sobrancelha</h3><p>Design discreto e alinhado ao seu rosto.</p><span class="price">Consulte</span></li>
+      <li class="reveal"><h3>Corte infantil</h3><p>Atendimento cuidadoso e confortável.</p><span class="price">Consulte</span></li>
+      <li class="reveal"><h3>Tratamentos capilares</h3><p>Cuidado e saúde para cabelo e couro cabeludo.</p><span class="price">Consulte</span></li>
+      <li class="reveal"><h3>Outros serviços</h3><p>Fale conosco para conhecer todas as opções.</p><span class="price">Consulte</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="profissionais">
+  <div class="wrap">
+    <p class="eyebrow reveal">Profissionais</p>
+    <h2 class="reveal">Quem cuida do seu estilo.</h2>
+    <div class="team">
+      <article class="card reveal"><div class="ph" data-img="images/barbeiro1.jpg" role="img" aria-label="Foto do barbeiro"></div><h3>Nome do Barbeiro</h3><span>Especialidade</span><p>Breve descrição do profissional e sua experiência.</p></article>
+      <article class="card reveal"><div class="ph" data-img="images/barbeiro2.jpg" role="img" aria-label="Foto do barbeiro"></div><h3>Nome do Barbeiro</h3><span>Especialidade</span><p>Breve descrição do profissional e sua experiência.</p></article>
+      <article class="card reveal"><div class="ph" data-img="images/barbeiro3.jpg" role="img" aria-label="Foto do barbeiro"></div><h3>Nome do Barbeiro</h3><span>Especialidade</span><p>Breve descrição do profissional e sua experiência.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec exp">
+  <div class="bg ph" data-img="images/experiencia.jpg" data-speed="0.1"></div>
+  <div class="wrap center">
+    <h2 class="big split">Seu momento.<br><em>Seu estilo.</em></h2>
+    <p class="reveal">Atendimento, ambiente, conforto e precisão: muito mais que um simples corte.</p>
+  </div>
+</section>
+
+<section class="sec dark">
+  <div class="wrap">
+    <div class="feats">
+      <div class="reveal"><i>01</i><h3>Atendimento personalizado</h3><p>Cada cliente recebe uma experiência pensada para suas necessidades.</p></div>
+      <div class="reveal"><i>02</i><h3>Profissionais qualificados</h3><p>Técnica, experiência e atenção aos detalhes.</p></div>
+      <div class="reveal"><i>03</i><h3>Ambiente premium</h3><p>Um espaço pensado para proporcionar conforto e exclusividade.</p></div>
+      <div class="reveal"><i>04</i><h3>Qualidade em cada detalhe</h3><p>Do atendimento ao resultado final.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="galeria">
+  <div class="wrap">
+    <p class="eyebrow reveal">Galeria</p>
+    <h2 class="reveal">Detalhes que contam a nossa história.</h2>
+    <div class="gallery">
+      <button class="g w2 h2 ph" data-img="images/g1.jpg" aria-label="Ampliar imagem 1"></button>
+      <button class="g ph" data-img="images/g2.jpg" aria-label="Ampliar imagem 2"></button>
+      <button class="g h2 ph" data-img="images/g3.jpg" aria-label="Ampliar imagem 3"></button>
+      <button class="g ph" data-img="images/g4.jpg" aria-label="Ampliar imagem 4"></button>
+      <button class="g w2 ph" data-img="images/g5.jpg" aria-label="Ampliar imagem 5"></button>
+      <button class="g ph" data-img="images/g6.jpg" aria-label="Ampliar imagem 6"></button>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark" id="avaliacoes">
+  <div class="wrap">
+    <p class="eyebrow reveal">Avaliações</p>
+    <h2 class="reveal">Quem vive a experiência, recomenda.</h2>
+    <!-- SUBSTITUA pelos depoimentos reais -->
+    <div class="reviews">
+      <blockquote class="reveal"><p>“Espaço para o depoimento de um cliente.”</p><cite>Nome do cliente</cite></blockquote>
+      <blockquote class="reveal"><p>“Espaço para o depoimento de um cliente.”</p><cite>Nome do cliente</cite></blockquote>
+      <blockquote class="reveal"><p>“Espaço para o depoimento de um cliente.”</p><cite>Nome do cliente</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="sec book" id="agendar">
+  <div class="wrap center">
+    <h2 class="big split">Seu próximo corte<br><em>começa aqui.</em></h2>
+    <p class="reveal">Facilite o agendamento e entre em contato rapidamente.</p>
+    <a class="btn btn-lg reveal" data-wa href="#">Agendar pelo WhatsApp</a>
+  </div>
+</section>
+
+<section class="sec" id="contato">
+  <div class="wrap two">
+    <div class="reveal">
+      <p class="eyebrow">Localização e contato</p>
+      <h2>Venha nos visitar.</h2>
+      <dl class="info">
+        <dt>Endereço</dt><dd data-edit="endereco">Rua Exemplo, 123 — Cidade/UF</dd>
+        <dt>Telefone</dt><dd><a href="tel:+5500000000000">(00) 0000-0000</a></dd>
+        <dt>WhatsApp</dt><dd><a data-wa href="#">(00) 00000-0000</a></dd>
+        <dt>Horário</dt><dd>Seg a Sáb · 09h às 20h</dd>
+        <dt>Instagram</dt><dd><a href="https://instagram.com/" rel="noopener" target="_blank">@suabarbearia</a></dd>
+      </dl>
+    </div>
+    <div class="map reveal"><iframe title="Mapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Brasil&output=embed"></iframe></div>
+  </div>
+</section>
+
+<section class="sec cta">
+  <div class="bg ph" data-img="images/cta.jpg"></div>
+  <div class="wrap center">
+    <h2 class="big split">Pronto para<br><em>elevar seu estilo?</em></h2>
+    <a class="btn btn-lg reveal" href="#agendar">Agendar horário</a>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap fgrid">
+    <div><a class="logo" href="#inicio">NOME DA <b>BARBEARIA</b></a><p class="tag">Estilo em cada detalhe.</p></div>
+    <div><h4>Links</h4><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#galeria">Galeria</a><a href="#contato">Contato</a></div>
+    <div><h4>Contato</h4><a data-wa href="#">WhatsApp</a><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a><span>Rua Exemplo, 123 — Cidade/UF</span><span>Seg a Sáb · 09h às 20h</span></div>
+  </div>
+  <p class="copy">© <span id="y"></span> Todos os direitos reservados.</p>
+</footer>
+
+<a class="wa-float" data-wa href="#" aria-label="Agendar pelo WhatsApp">WhatsApp</a>
+<div class="lb" id="lb" hidden><button aria-label="Fechar" id="lbx">×</button><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
